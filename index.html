@@ -245,7 +245,7 @@
                 <div class="modal-content">
                     <span class="close">&times;</span>
                     <h1>Fale com a nossa equipe de especialistas</h1>
-                    <form action="contato.php" method="POST">
+                    <form id="contatoForm" action="" method="POST">
                         <div class="rowModal">
                             <div class="colModal">
                                 <label for="nome">Nome:</label>
@@ -279,7 +279,7 @@
                             </div>
                         </div>
                         <div class="rowModal">
-                            <input id="btnSend" type="submit" name="send" value="ENVIAR">
+                            <input id="btnSend" type="submit" name="send" value="ENVIAR" onclick="enviarEmail()">
                         </div>
                     </form>
                 </div>
